@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <windows.h>
 #include <time.h>
+#include "ATM.h"
 
 const int pin = 1234;
 int option, enteredPin, count = 0, amount = 1, continueTransaction = 1;
